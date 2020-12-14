@@ -1,6 +1,14 @@
 {
+  "rufo.exe": "rufo",
   "[ruby]": {
     "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[js]": {
+    "editor.formatOnSave": false
   },
   "cSpell.userWords": [
     "Alderaan",
@@ -15,21 +23,21 @@
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
+  "terminal.integrated.shell.osx": "zsh",
   "ruby.lint": {
     "reek": false,
     "rubocop": true,
     "ruby": false,
     "fasterer": false,
     "debride": false,
-    "ruby-lint": false,
+    "ruby-lint": false
   },
   "breadcrumbs.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.fontFamily": "Fira Code, Inconsolata, Hack, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontLigatures": true,
+  "editor.fontLigatures": false,
   "editor.fontSize": 14,
   "editor.formatOnPaste": false,
-  "editor.formatOnSave": true,
   "editor.formatOnSaveTimeout": 1500,
   "editor.formatOnType": false,
   "editor.insertSpaces": true,
@@ -49,22 +57,47 @@
   "markdown.extension.orderedList.autoRenumber": false,
   "plantuml.exportOutDir": ".",
   "ruby.codeCompletion": "rcodetools",
-  "ruby.format": "rubocop",
+  // "ruby.format": "rubocop",
   "ruby.intellisense": false,
   "ruby.useBundler": true,
   "ruby.useLanguageServer": false,
-  "search.location": "panel",
   "solargraph.autoformat": true,
   "solargraph.formatting": true,
   "solargraph.useBundler": false,
   "window.newWindowDimensions": "maximized",
   "window.openFoldersInNewWindow": "on",
   "window.restoreWindows": "all",
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "workbench.activityBar.visible": false,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "newUntitledFile",
-  "[diff]": {}
+  "[diff]": {},
+  "editor.renderWhitespace": "none",
+  "markdownlint.run": "onSave",
+  "terminal.integrated.scrollback": 30000,
+  "ruby.rubocop.onSave": false,
+  "ruby.interpreter.commandPath": "/Users/harlanwood/.rbenv/shims/ruby",
+  "ruby.pathToBundler": "/Users/harlanwood/.rbenv/shims/bundle",
+  "solargraph.bundlerPath": "/Users/harlanwood/.rbenv/shims/bundle",
+  "solargraph.commandPath": "/Users/harlanwood/.rbenv/shims/solargraph",
+  "ruby.rubocop.executePath": "/Users/harlanwood/.rbenv/shims/",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Night Owl",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "workbench.editor.showTabs": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "plantuml.render": "PlantUMLServer",
+  "plantuml.server": "https://www.plantuml.com/plantuml"
 }

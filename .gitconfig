@@ -9,7 +9,7 @@
 # To use it as your system level gitconfig:
 # sudo ln -s /path/to/gitconfig /opt/local/etc/gitconfig
 #
-
+#
 [alias]
 	a = !git config --list | grep alias
 	anw = !sh -c 'git diff -U0 -w --no-color "$@" | git apply --cached --ignore-whitespace --unidiff-zero -'   # add non-whitespace changes, from http://stackoverflow.com/a/7149602/1533892

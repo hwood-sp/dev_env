@@ -99,5 +99,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "plantuml.render": "PlantUMLServer",
-  "plantuml.server": "https://www.plantuml.com/plantuml"
+  "plantuml.server": "https://www.plantuml.com/plantuml",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "default",
+      "filenamePattern": "git-rebase-todo"
+    }
+  ]
 }
